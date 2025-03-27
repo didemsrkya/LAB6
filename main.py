@@ -29,3 +29,9 @@ def recursive_sum(n):
         return
     totalSum += n
     recursive_sum(n - 1)
+
+# Tests
+print(factorial(5))      # 120
+sine_x(30, 5)            # approx 0.5
+recursive_sum(5)
+print(totalSum)             # 15
